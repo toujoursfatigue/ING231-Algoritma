@@ -1,0 +1,6 @@
+import math
+n=100
+while n<1000:
+    if str(n)[0]==str(n)[2]:
+        print(n)
+    n+=1 
